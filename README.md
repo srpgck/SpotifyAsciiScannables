@@ -51,7 +51,20 @@ python main.py <spotify_url_or_uri> [options]
 | `-s`, `--size` | Size | string | Set code size: `tiny`, `small`, `medium`, `large` (Default: `medium`). |
 | `-d`, `--debug`| Debug | | Enable debug logs for request troubleshooting. |
 
-### Examples
+---
+
+## Examples & Output Previews
+
+You can preview the pre-rendered outputs for each size directly on GitHub by visiting the files in the [examples/](examples/) directory:
+
+* 🔍 [**Large Size Example**](examples/large.md) *(Recommended for optimal camera scanning)*
+* 🟢 [**Medium Size Example**](examples/medium.md) *(Default size)*
+* ⚠️ [**Small Size Example**](examples/small.md) *(Not recommended for camera scanning)*
+* ⚠️ [**Tiny Size Example**](examples/tiny.md) *(Not recommended for camera scanning)*
+
+---
+
+## Command Line Examples
 
 $$\large\color{red}\textbf{Works best in medium and large (tiny and small are not suggested!!!)}$$
 
@@ -83,5 +96,6 @@ python main.py "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt" -s tiny -
 
 ## License
 
+```
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
